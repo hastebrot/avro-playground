@@ -1,1 +1,1 @@
-rootProject.name = "kotlin-project-template"
+rootProject.name = "avro-playground"
