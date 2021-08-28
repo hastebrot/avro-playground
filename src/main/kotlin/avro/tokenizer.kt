@@ -15,7 +15,7 @@ import org.apache.logging.log4j.LogManager
 import java.io.ByteArrayOutputStream
 import java.nio.ByteBuffer
 
-private fun <T> T.println(prefix: String? = null) = this.apply {
+private fun <T> T.println(prefix: String? = null) = apply {
     println(if (prefix == null) this else "$prefix: $this")
 }
 
